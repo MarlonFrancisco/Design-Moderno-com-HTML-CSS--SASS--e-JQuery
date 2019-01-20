@@ -1,0 +1,23 @@
+{
+  "name": "design",
+  "authors": [
+    "Marlon Francisco <marlon.nascimento2@etec.sp.gov.br>"
+  ],
+  "description": "design learning",
+  "main": "",
+  "keywords": [
+    "olamundo"
+  ],
+  "license": "MIT",
+  "homepage": "index.html",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.3.1"
+  }
+}

@@ -1,0 +1,41 @@
+body
+	background:
+		image: url("../../images/desktop/background1.svg")
+		size: cover
+		position: center
+		attachment: fixed
+		repeat: no-repeat
+
+	img
+		position: absolute
+		width: 120px
+		top: 50%
+		transform: translateY(-50%)
+
+		&:nth-child(1)
+			right: 0
+
+header.navbar
+	display: flex
+	align-items: center
+	justify-content: space-between
+	padding: 20px 50px
+
+	button
+		background: none
+		border: none
+		cursor: pointer
+		font-size: 2rem
+		transition: .5s
+		color: #fff
+
+	nav
+		ul
+			display: flex
+			li
+				padding: 10px
+
+				a
+					font-size: 1rem
+
+		display: none
